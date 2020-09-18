@@ -12,7 +12,7 @@ This version implements the 3D image registration for Nano-resolution Synchrotro
 
 Example:
 -----------
-directly run 'registration_3D.m' (more details inside)
+Directly run 'registration_3D.m' (more details inside)
 
 Contact:
 -----------
