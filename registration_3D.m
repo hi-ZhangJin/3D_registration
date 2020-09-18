@@ -14,12 +14,12 @@ addpath('Data\');
 % Load fixed 3D images
 fixed = load('fixed.mat');
 % Generate binary matrix of fixed 3D images using K means
-fixed_binary = mat2gray(reshape(kmeans(fixed(:),2),size(fixed)));
+fixed_binary = reshape(kmeans(fixed(:),2),size(fixed));
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Load moving 3D images
 moving = load('moving.mat');
 % Generate binary matrix of moving 3D images using K means
-moving_binary = mat2gray(reshape(kmeans(moving(:),2),size(moving)));    
+moving_binary = reshape(kmeans(moving(:),2),size(moving));    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Create the optimizer and metric and set the modality to 'monomodal'
 [optimizer,metric] = imregconfig('monomodal');
