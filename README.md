@@ -10,6 +10,10 @@ Usage
 -----------
 This version implements the 3D image registration for Nano-resolution Synchrotron spectro-tomography.
 
+Example:
+-----------
+directly run 'registration_3D.m' (more details inside)
+
 Contact:
 -----------
 Jin Zhang (zjin0930@gmail.com), Institute of High Energy Physics.
